@@ -104,26 +104,27 @@ export default class Home extends Component {
               <Text
                 style={{
                   textAlign: 'left',
-                  margin: 10,
+                  padding: 20,
                   fontSize: 16,
                   color: '#fff',
                 }}>
-                Unidades de saúde mais próximas
+                Unidades de saúde próximas
               </Text>
             </HelpButton>
           </HelpView>
           <HelpView>
             <HelpButton style={{ backgroundColor: '#8CC63F' }}>
+              <HelpImage source={require('../../assets/group.png')} />
               <Text
                 style={{
-                  textAlign: 'right',
-                  margin: 10,
+                  textAlign: 'justify',
+                  marginRight: 5,
+                  paddingRight: 5,
                   fontSize: 16,
                   color: '#fff',
                 }}>
-                Como posso me prevenir?
+                Como se prevenir?
               </Text>
-              <HelpImage source={require('../../assets/group.png')} />
             </HelpButton>
           </HelpView>
         </View>

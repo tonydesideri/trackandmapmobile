@@ -95,18 +95,22 @@ export const Input = styled.TextInput`
 `;
 
 export const HelpView = styled.View`
-  display: flex;
-  flex-direction: row;
-  padding: 10px;
+  flex: 1;
+  margin: 30px 15px;
 `;
 
 export const HelpButton = styled(RectButton)`
-  display: flex;
+  border-radius: 5px;
   flex-direction: row;
   align-items: center;
-  border-radius: 5px;
-  padding: 5px 10px;
-  max-width: 80%;
+  width: 150px;
+  height: 100px;
+  padding: 10px;
 `;
 
-export const HelpImage = styled.Image``;
+export const HelpImage = styled.Image`
+  align-self: auto;
+  margin-left: 0px;
+  padding-left: 0px;
+  margin-bottom: 15px;
+`;

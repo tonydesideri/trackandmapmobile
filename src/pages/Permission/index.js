@@ -22,7 +22,10 @@ export default class Permission extends Component {
     this.state = {};
   }
 
-  handleNavigate = () => {};
+  handleNavigate = () => {
+    const { navigation } = this.props;
+    navigation.navigate('Home');
+  };
 
   render() {
     return (
