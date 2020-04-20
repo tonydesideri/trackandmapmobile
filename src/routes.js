@@ -103,7 +103,7 @@ export default function Routes() {
       screenOptions={{
         headerShown: false,
       }}
-      initialRouteName="Home">
+      initialRouteName="Welcome">
       <Stack.Screen name="Welcome" component={Welcome} />
       <Stack.Screen
         name="Register"
