@@ -5776,6 +5776,11 @@ react-is@^16.12.0, react-is@^16.13.0, react-is@^16.7.0, react-is@^16.8.1, react-
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
+react-native-ble-manager@^7.2.0:
+  version "7.2.0"
+  resolved "https://registry.yarnpkg.com/react-native-ble-manager/-/react-native-ble-manager-7.2.0.tgz#bbbf0e4b1dd01f131c26192413fb7cfa42d738f6"
+  integrity sha512-3N3gb3W3Y7Wdw2nxyam+TRUfRrTAM+rkEKerimmzlVledRWGkhYBLESDhO0pityTzP5HAYVXF1O5GwisTviZ9Q==
+
 react-native-gesture-handler@^1.6.1:
   version "1.6.1"
   resolved "https://registry.yarnpkg.com/react-native-gesture-handler/-/react-native-gesture-handler-1.6.1.tgz#678e2dce250ed66e93af409759be22cd6375dd17"
@@ -5785,6 +5790,11 @@ react-native-gesture-handler@^1.6.1:
     hoist-non-react-statics "^2.3.1"
     invariant "^2.2.4"
     prop-types "^15.7.2"
+
+react-native-ibeacon@^0.6.0:
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/react-native-ibeacon/-/react-native-ibeacon-0.6.0.tgz#9b89af227a4a8be537effeff556e2349a36a97d8"
+  integrity sha1-m4mvInpKi+U37/7/VW4jSaNql9g=
 
 react-native-iphone-x-helper@^1.2.1:
   version "1.2.1"
