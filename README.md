@@ -4,8 +4,8 @@
 </p>
 
 <h1 align="center">Pandemic Hackfest Saúde 2020</h1>
-<h2 align="center">Tack & Map - Pandemic</h2>
-<h2 align="center">Mapeando conexões para salver vidas</h2>
+<h2 align="center">Track & Map - Pandemic</h2>
+<h2 align="center">Mapeando conexões para salvar vidas</h2>
 
 <div align="center">
 
@@ -32,7 +32,13 @@
 
 ## 🧐 Sobre <a name = "about"></a>
 
-<p align="center">Texto sobre
+<p align="center">Aplicativo mobile de rastreamento, mapeamento de contatos (proximidade), de pessoas sintomáticas, oligossintomáticas e assintomáticas com a COVID-19, orientado pela população (Community Driven) utilizando tecnologia Bluetooth com Dashboard Web de monitoramento de dados da população com COVID-19, um mapa de calor por zonas da cidade e bairros, para melhor predição de demanda de profissionais, leitos, EPI’s e outros, com opções de envio de notificações sobre auto quarentena, avaliação e conscientização.
+
+Pensando nas comunidades mais distantes com acesso a internet de baixa qualidade, o app coletará dados do bluetooth e será gerado um log que salvará no dispositivo todos as conexões feitas pelo usuário.
+Diferente das soluções criadas recentemente sem consentimento dos usuários utilizando dados móveis das operadoras, nosso propósito é baseado na transparência, privacidade e consentimento da população seguindo as normas da Lei de Proteção de Dados (LGPD).
+Estamos desenvolvendo uma plataforma focada em regiões (cidades e estados), cada uma podendo
+integrar o que já existe em relação a chatbots de pré-diagnosticos e atendimentos de saúde em geral,
+sem necessidade de criar novas ferramentas repetidas que já estão disponibilizadas pelos órgãos de saúde.
     <br>
 </p>
 
