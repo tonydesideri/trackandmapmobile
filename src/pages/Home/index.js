@@ -35,6 +35,11 @@ export default class Home extends Component {
     this.state = {};
   }
 
+  handleNavigate = () => {
+    const { navigation } = this.props;
+    navigation.navigate('Alert');
+  };
+
   render() {
     return (
       <Container>
@@ -77,7 +82,9 @@ export default class Home extends Component {
           </StatusView>
           <StatusView>
             <Text style={{ fontSize: 16, marginBottom: 5 }}>Seus Alertas</Text>
-            <StatusButton style={{ backgroundColor: '#FF6543' }}>
+            <StatusButton
+              style={{ backgroundColor: '#FF6543' }}
+              onPress={this.handleNavigate}>
               <Icon name="bell" size={25} color="#fff" />
               <Text style={{ color: '#fff', paddingLeft: 10, fontSize: 16 }}>
                 2 Alertas

@@ -18,7 +18,7 @@ import Setting from './pages/Setting';
 const Stack = createStackNavigator();
 const Tab = createBottomTabNavigator();
 
-const HomeTabScreen = () => (
+const PageTabScreen = () => (
   <Tab.Navigator
     tabBarOptions={{
       activeTintColor: '#5440AF',
@@ -147,9 +147,19 @@ export default function Routes() {
       />
       <Stack.Screen
         name="Home"
-        component={HomeTabScreen}
+        component={PageTabScreen}
         options={{
           headerShown: false,
+          headerTintColor: '#000000',
+          headerTitleAlign: 'center',
+        }}
+      />
+      <Stack.Screen
+        name="Alert"
+        component={PageTabScreen}
+        options={{
+          title: 'Alerta',
+          headerShown: true,
           headerTintColor: '#000000',
           headerTitleAlign: 'center',
         }}

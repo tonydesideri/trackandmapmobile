@@ -48,7 +48,7 @@ export const QuestionView = styled.View`
   flex-direction: row;
   max-height: auto;
   align-items: center;
-  padding: 5px 15px;
+  padding: 15px 15px;
 `;
 
 export const Status = styled.View`
@@ -80,7 +80,7 @@ export const StatusButton = styled(RectButton)`
 export const ZonaView = styled.View`
   display: flex;
   flex-direction: row;
-  margin: 0 15px;
+  margin: 15px 15px 0 15px;
   align-items: center;
 `;
 
@@ -96,7 +96,7 @@ export const Input = styled.TextInput`
 
 export const HelpView = styled.View`
   flex: 1;
-  margin: 30px 15px;
+  margin: 35px 15px;
 `;
 
 export const HelpButton = styled(RectButton)`
