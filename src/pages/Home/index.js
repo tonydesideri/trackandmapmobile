@@ -22,6 +22,7 @@ import {
   HelpButton,
   HelpImage,
 } from './styles';
+import BleSetup from '../../services/ble';
 
 export default class Home extends Component {
   static propTypes = {
@@ -32,7 +33,13 @@ export default class Home extends Component {
 
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = {
+      active: false,
+    };
+
+    BleSetup().then(() => {
+      this.setState({ active: true });
+    });
   }
 
   handleNavigate = () => {
@@ -41,6 +48,7 @@ export default class Home extends Component {
   };
 
   render() {
+    const { active } = this.state;
     return (
       <Container>
         <Header>
@@ -73,10 +81,11 @@ export default class Home extends Component {
         <Status>
           <StatusView>
             <Text style={{ fontSize: 16, marginBottom: 5 }}>Seu status</Text>
-            <StatusButton style={{ backgroundColor: '#8CC63F' }}>
+            <StatusButton
+              style={{ backgroundColor: active ? '#8CC63F' : '#FF6543' }}>
               <Icon name="eye-outline" size={25} color="#fff" />
               <Text style={{ color: '#fff', paddingLeft: 10, fontSize: 16 }}>
-                Ativo
+                {active ? 'Ativo' : 'Inativo'}
               </Text>
             </StatusButton>
           </StatusView>
